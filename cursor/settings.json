@@ -1,0 +1,27 @@
+{
+    "window.commandCenter": true,
+    "workbench.colorTheme": "Atom One Dark",
+    "dart.flutterSdkPath": "/home/adam/software/flutter",
+    
+    "editor.lineNumbers": "relative",
+
+    "vim.leader": " ",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["<leader>", "q"],
+            "commands": ["workbench.action.closeActiveEditor"]
+        },
+        {
+            "before": ["<leader>", "g"],
+            "commands": ["editor.action.revealDefinition"]
+        },
+        {
+            "before": ["<leader>", "f"],
+            "commands": ["workbench.action.quickOpen"]
+        },
+        {
+            "before": ["<leader>", "e"],
+            "commands": ["workbench.view.explorer"]
+        }
+    ]
+}
